@@ -47,6 +47,7 @@ Route::get('/forget_password', function () {
 });
 
 Route::get('/exam', 'Exam\ExamController@index');
+Route::get('/video', 'Exam\ExamController@video');
 
 // Route::get('/general_info', 'Hris\CommonController@generalInfo')->name('general_info');
 // Route::get('/department', 'Hris\CommonController@listOrg')->name('org');

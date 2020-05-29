@@ -14,6 +14,12 @@
                             <i class="iconsminds-profile"></i> Exam
                         </a>
                     </li>
+                    
+                    <li>
+                        <a href="/video">
+                            <i class="iconsminds-tv"></i> Video
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

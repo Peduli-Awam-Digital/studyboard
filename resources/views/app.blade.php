@@ -42,12 +42,12 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-sm-6">
-                        <p class="mb-0 text-muted">Zohobiz 2020</p>
+                        <p class="mb-0 text-muted">Study Board 2020</p>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
                         <ul class="breadcrumb pt-0 pr-0 float-right">
                             <li class="breadcrumb-item mb-0">
-                                <a href="#" class="btn-link">Komunigrafik</a>
+                                <a href="#" class="btn-link">Peduli Awam Digital</a>
                             </li>
                         </ul>
                     </div>
