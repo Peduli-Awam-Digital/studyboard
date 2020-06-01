@@ -10,7 +10,7 @@
                     </li>
 
                     <li>
-                        <a href="/exam">
+                        <a href="/exam/confirm">
                             <i class="iconsminds-profile"></i> Exam
                         </a>
                     </li>

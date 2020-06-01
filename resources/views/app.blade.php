@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ url('css/vendor/component-custom-switch.min.css') }} " />
     <link rel="stylesheet" href="{{ url('css/vendor/perfect-scrollbar.css') }} " />
     <link rel="stylesheet" href="{{ url('css/main.css') }}" />
-    <link rel="stylesheet" href="{{ url('css/dore.light.purple.min.css') }}" />
+    <link rel="stylesheet" href="{{ url('css/dore.light.blue.min.css') }}" />
     {{-- select 2 --}}
     <link rel="stylesheet" href="{{ url('css/vendor/select2.min.css') }}" />
     <link rel="stylesheet" href="{{ url('css/vendor/select2-bootstrap.min.css') }}" />
@@ -24,7 +24,7 @@
 
 </head>
 
-<body id="app-container" class="menu-default show-spinner">
+<body id="app-container" class="menu-sub-hidden show-spinner">
     {{-- <body id="app-container" class="menu-default"> --}}
     <!-- Navbar -->
     @include('navbar')

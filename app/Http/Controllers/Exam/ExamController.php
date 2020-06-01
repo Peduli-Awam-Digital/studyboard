@@ -14,6 +14,24 @@ class ExamController extends Controller
         return view('exam.exam');
     }
 
+    public function discuss()
+    {
+
+        return view('exam.discuss');
+    }
+
+    public function score()
+    {
+
+        return view('exam.score');
+    }
+
+    public function confirm()
+    {
+
+        return view('exam.confirm');
+    }
+
     public function video()
     {
         return view('exam.video');
