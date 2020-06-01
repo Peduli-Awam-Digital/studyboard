@@ -50,6 +50,10 @@ Route::get('/exam', 'Exam\ExamController@index');
 Route::get('/exam/discuss', 'Exam\ExamController@discuss');
 Route::get('/exam/confirm', 'Exam\ExamController@confirm');
 Route::get('/exam/score', 'Exam\ExamController@score');
+Route::get('/exam/result', 'Exam\ExamController@result');
+Route::get('/exam/analisa', 'Exam\ExamController@analisa');
+Route::get('/exam/question', 'Exam\ExamController@question');
+
 
 Route::get('/video', 'Exam\ExamController@video');
 

@@ -16,8 +16,14 @@
                     </li>
                     
                     <li>
-                        <a href="/video">
-                            <i class="iconsminds-tv"></i> Video
+                        <a href="/exam/result">
+                            <i class="iconsminds-idea"></i> Daftar Nilai
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/exam/analisa">
+                            <i class="iconsminds-line-chart-1"></i> Analisa
                         </a>
                     </li>
                 </ul>
