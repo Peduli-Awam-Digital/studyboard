@@ -9,23 +9,27 @@
                         </a>
                     </li>
 
-                    <li>
-                        <a href="/exam/confirm">
-                            <i class="iconsminds-profile"></i> Exam
-                        </a>
-                    </li>
+                    <div id="student_menu">
+                        <li>
+                            <a href="/exam/confirm">
+                                <i class="iconsminds-profile"></i> Exam
+                            </a>
+                        </li>
+                    </div>
                     
-                    <li>
-                        <a href="/exam/result">
-                            <i class="iconsminds-idea"></i> Daftar Nilai
-                        </a>
-                    </li>
+                    <div id="teacher_menu">
+                        <li>
+                            <a href="/exam/result">
+                                <i class="iconsminds-idea"></i> Daftar Nilai
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="/exam/analisa">
-                            <i class="iconsminds-line-chart-1"></i> Analisa
-                        </a>
-                    </li>
+                        <li>
+                            <a href="/exam/analisa">
+                                <i class="iconsminds-line-chart-1"></i> Analisa
+                            </a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>

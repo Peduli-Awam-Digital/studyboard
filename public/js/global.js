@@ -1,8 +1,3 @@
-// const apiUrl = $('#api_url').val();
-
-
-
-
 // alert before Create
 function zCreate(link)
 {
@@ -71,3 +66,17 @@ $(".scroll ul li").click(function() {
   $("li").removeClass("active");
   $(this).addClass("active");
 });
+
+// teacher menu
+function teacher_menu()
+{
+  $("#teacher_menu").show();
+  $("#student_menu").hide();
+}
+
+// student menu
+function student_menu()
+{
+  $("#teacher_menu").hide();
+  $("#student_menu").show();
+}

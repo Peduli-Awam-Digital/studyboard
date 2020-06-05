@@ -40,13 +40,13 @@
 
         <div class="navbar-right">
             <div class="header-icons d-inline-block align-middle">
-                {{-- <div class="d-none d-md-inline-block align-text-bottom mr-3">
+                <div class="d-none d-md-inline-block align-text-bottom mr-3">
                     <div class="custom-switch custom-switch-primary-inverse custom-switch-small pl-1" 
                         data-toggle="tooltip" data-placement="left" title="Dark Mode">
                         <input class="custom-switch-input" id="switchDark" type="checkbox" checked>
                         <label class="custom-switch-btn" for="switchDark"></label>
                     </div>
-                </div> --}}
+                </div>
 
                 <div class="position-relative d-none d-sm-inline-block">
                     <button class="header-icon btn btn-empty" type="button" id="iconMenuButton" data-toggle="dropdown"
@@ -54,36 +54,15 @@
                         <i class="simple-icon-grid"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right mt-3  position-absolute" id="iconMenuDropdown">
-                        <a href="#" class="icon-menu-item">
-                            <i class="iconsminds-equalizer d-block"></i>
-                            <span>Settings</span>
-                        </a>
-
-                        <a href="#" class="icon-menu-item">
+                        <a href="javascript:void(0)" onclick="teacher_menu();" class="icon-menu-item">
                             <i class="iconsminds-male-female d-block"></i>
-                            <span>Users</span>
+                            <span>Teacher</span>
                         </a>
 
-                        <a href="#" class="icon-menu-item">
-                            <i class="iconsminds-puzzle d-block"></i>
-                            <span>Components</span>
+                        <a href="javascript:void(0)" onclick="student_menu();" class="icon-menu-item">
+                            <i class="iconsminds-male-female d-block"></i>
+                            <span>Student</span>
                         </a>
-
-                        <a href="#" class="icon-menu-item">
-                            <i class="iconsminds-bar-chart-4 d-block"></i>
-                            <span>Profits</span>
-                        </a>
-
-                        <a href="#" class="icon-menu-item">
-                            <i class="iconsminds-file d-block"></i>
-                            <span>Surveys</span>
-                        </a>
-
-                        <a href="#" class="icon-menu-item">
-                            <i class="iconsminds-suitcase d-block"></i>
-                            <span>Tasks</span>
-                        </a>
-
                     </div>
                 </div>
 
