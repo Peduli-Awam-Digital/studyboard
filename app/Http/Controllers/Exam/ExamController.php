@@ -47,4 +47,9 @@ class ExamController extends Controller
     {
         return view('exam.question');
     }
+
+    public function class()
+    {
+        return view('exam.class');
+    }
 }

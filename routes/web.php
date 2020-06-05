@@ -52,8 +52,13 @@ Route::get('/exam/confirm', 'Exam\ExamController@confirm');
 Route::get('/exam/score', 'Exam\ExamController@score');
 Route::get('/exam/result', 'Exam\ExamController@result');
 Route::get('/exam/analisa', 'Exam\ExamController@analisa');
-Route::get('/exam/question', 'Exam\ExamController@question');
 
+Route::get('/exam/class', 'Exam\ExamController@class');
+
+
+// Question
+Route::get('/question/package', 'QuestionController@package');
+Route::get('/question/package/detail', 'QuestionController@package_detail');
 
 Route::get('/video', 'Exam\ExamController@video');
 
