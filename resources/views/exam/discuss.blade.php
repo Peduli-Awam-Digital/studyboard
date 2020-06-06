@@ -10,7 +10,7 @@
                 <h1>Pembahasan - IPA Rantai Makanan</h1>
                 <div class="text-zero top-right-button-container">
                     {{-- <button type="button" class="btn btn-primary btn-lg top-right-button mr-1">KEMBALI</button> --}}
-                    <a href="/exam/confirm" class="btn btn-primary btn-lg top-right-button mr-1">KEMBALI</a>
+                    <a href="/exam/package" class="btn btn-primary btn-lg top-right-button mr-1">KEMBALI</a>
                 </div>
                 <nav class="breadcrumb-container d-none d-sm-block d-lg-inline-block" aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">

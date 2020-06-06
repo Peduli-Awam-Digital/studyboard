@@ -63,8 +63,10 @@ Route::get('/subject', 'MasterData\SubjectController@index');
 Route::get('/class', 'MasterData\ClassController@index');
 
 // Question
-Route::get('/question/package', 'QuestionController@package');
-Route::get('/question/package/detail', 'QuestionController@package_detail');
+Route::get('/exam/question', 'QuestionController@package');
+Route::get('/exam/package/question', 'QuestionController@question');
+Route::get('/exam/package/detail', 'QuestionController@package_detail');
+Route::get('/exam/package/config', 'QuestionController@config');
 
 Route::get('/video', 'Exam\ExamController@video');
 

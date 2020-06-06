@@ -31,7 +31,7 @@
     <!-- End Navbar -->
 
     <!-- Menu -->
-    @include('menu')
+    @include('menuStudent')
     <!-- End Menu -->
     <main>
         @yield('content')

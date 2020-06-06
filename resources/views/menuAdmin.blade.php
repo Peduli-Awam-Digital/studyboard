@@ -7,7 +7,7 @@
                 <li><a href="/student"><i class="iconsminds-profile"></i> Siswa</a></li>
                 <li><a href="/subject"><i class="iconsminds-profile"></i> Mata Pelajaran</a></li>
                 <li><a href="/class"><i class="iconsminds-profile"></i> Kelas</a></li>
-                <li><a href="/question/package"><i class="iconsminds-profile"></i> Soal</a></li>   
+                <li><a href="/question/package"><i class="iconsminds-profile"></i> Paket Soal</a></li>   
             </ul>
         </div>
     </div>

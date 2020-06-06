@@ -20,4 +20,14 @@ class QuestionController extends Controller
     {
         return view('question.packageDetail');
     }
+
+    public function question()
+    {
+        return view('question.question');
+    }
+
+    public function config()
+    {
+        return view('question.config');
+    }
 }
