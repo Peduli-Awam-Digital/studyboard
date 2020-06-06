@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('auth.login');
+    return view('template.blank');
 });
 
 Route::get('/blank', function () {
@@ -55,6 +55,12 @@ Route::get('/exam/analisa', 'Exam\ExamController@analisa');
 
 Route::get('/exam/class', 'Exam\ExamController@class');
 
+
+// Master Data
+Route::get('/teacher', 'MasterData\TeacherController@index');
+Route::get('/student', 'MasterData\StudentController@index');
+Route::get('/subject', 'MasterData\SubjectController@index');
+Route::get('/class', 'MasterData\ClassController@index');
 
 // Question
 Route::get('/question/package', 'QuestionController@package');
