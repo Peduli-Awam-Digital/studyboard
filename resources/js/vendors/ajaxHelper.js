@@ -1,7 +1,10 @@
+import Swal from 'sweetalert2';
+import Cookie from 'js-cookie';
+
 $.ajaxSetup({
 	beforeSend: function (xhr) {
-		if ($.cookie('token')) {
-			xhr.setRequestHeader('Authorization', 'Bearer ' + $.cookie('token'));
+		if (Cookie.get('token')) {
+			xhr.setRequestHeader('Authorization', 'Bearer ' + Cookie.get('token'));
 		}
 	}
 });
@@ -135,19 +138,6 @@ async function selectAjax(paramObject){
         minimumInputLength: paramObject.minInput ? paramObject.minInput : 0
     });
 }
-
-$(document).on('click', '.loadAjax', async function(e) {
-
-	e.preventDefault();
-
-	var indx = $('.loadAjax').index(this);
-	var loadAjaxHref = $('.loadAjax').eq(indx).attr('href');
-	var loadAjaxResult = await ajaxRequest(loadAjaxHref);
-
-	window.history.pushState('','null', loadAjaxHref);
-
-	$('#ajaxWrapper').html(loadAjaxResult);
-});
 
 function showLoader(target) {
 	$(target).append('<div class="wrapperCustomLoader1" style="margin:auto; top: 0px; bottom: 0px; left: 0px; right: 0px; width: 100%; height: 100%; position: absolute; z-index: 1000"><div style="position: absolute; width: 100%; height: 100%; background-color: white; opacity: 50%; z-index: 1001;"></div><div class="loaderCustom1">Loading...</div></div>');
@@ -286,23 +276,15 @@ function zDelete(url)
       })
 }
 
-// date range
-if ($().datepicker) {
-	$(".input-daterange").datepicker({
-	  autoclose: true,
-	  format: 'yyyy-mm-dd',
-	  templates: {
-		leftArrow: '<i class="simple-icon-arrow-left"></i>',
-		rightArrow: '<i class="simple-icon-arrow-right"></i>'
-	  }
-	});
-  }
-  
-  // select2
-  if ($().select2) {
-	$(".select2-single").select2({
-	  theme: "bootstrap",
-	});
-  }
-
-  
+export {
+	ajaxRequest,
+	ajaxSendForm,
+	selectAjax,
+	showLoader,
+	removeLoader,
+	validationError,
+	errorAJAX,
+	customToast,
+	zToast,
+	zDelete
+}

@@ -12,4 +12,9 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+	.js('resources/js/themes/auth.js', 'public/js/themes')
+	.js('resources/js/themes/dashboard.js', 'public/js/themes')
+	.js('resources/js/pages/login.js', 'public/js/pages')
+	.js('resources/js/pages/home.js', 'public/js/pages')
+    .sass('resources/sass/themes/auth.scss', 'public/css/themes')
+    .sass('resources/sass/themes/dashboard.scss', 'public/css/themes');

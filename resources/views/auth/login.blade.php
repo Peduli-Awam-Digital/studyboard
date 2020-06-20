@@ -43,40 +43,6 @@
 </div>
 
 <input type="text" name="" id="api_url" value="{{ env('API_URL') }}">    
-
-
-<script type="text/javascript">
-
-    const apiUrl = $('#api_url').val();
-
-    async function login(e){
-        try{
-            e.preventDefault()
-            showLoader('.form-side')
-
-            var req = await ajaxRequest(apiUrl + '/auth/login', 'POST', {
-                user_name: $('#user_name').val(),
-                password: $('#password').val()
-            });
-
-            var data = req.data.data;
-            var token = req.data.token;
-            var user_id = data.user_id;
-            var company_id = data.company_id;
-            var name = data.name;
-
-            $.cookie('token', token);
-
-            document.location = '/blank';
-        }catch(err){
-            errorAJAX(err);
-        }finally{
-            removeLoader('.form-side')
-        }
-    }
-
-</script>
-
 @endsection
 
       

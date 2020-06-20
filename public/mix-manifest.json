@@ -1,0 +1,9 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/themes/auth.css": "/css/themes/auth.css",
+    "/css/themes/dashboard.css": "/css/themes/dashboard.css",
+    "/js/pages/home.js": "/js/pages/home.js",
+    "/js/pages/login.js": "/js/pages/login.js",
+    "/js/themes/auth.js": "/js/themes/auth.js",
+    "/js/themes/dashboard.js": "/js/themes/dashboard.js"
+}

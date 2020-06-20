@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>PADI | @yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="{{ url('font/iconsmind-s/css/iconsminds.css') }}" />
+    <!-- <link rel="stylesheet" href="{{ url('font/iconsmind-s/css/iconsminds.css') }}" />
     <link rel="stylesheet" href="{{ url('font/simple-line-icons/css/simple-line-icons.css') }}" />
     <link rel="stylesheet" href="{{ url('css/vendor/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ url('css/vendor/bootstrap.rtl.only.min.css') }}" />
@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="{{ url('css/vendor/select2.min.css') }}" />
     <link rel="stylesheet" href="{{ url('css/vendor/select2-bootstrap.min.css') }}" />
     {{-- datepicker --}}
-    <link rel="stylesheet" href="{{ url('css/vendor/bootstrap-datepicker3.min.css') }}" />
+    <link rel="stylesheet" href="{{ url('css/vendor/bootstrap-datepicker3.min.css') }}" /> -->
+    <link rel="stylesheet" href="{{ url('css/themes/dashboard.css') }}" />
     {{-- Load CSS --}}
     @yield('css')
     {{-- End Load CSS --}}
@@ -56,7 +57,7 @@
         </div>
     </footer>
 
-    {{-- Load JS --}}
+    <!-- {{-- Load JS --}}
     <script src="{{ url('js/vendor/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ url('js/vendor/bootstrap.bundle.min.js') }} "></script>
     <script src="{{ url('js/vendor/perfect-scrollbar.min.js') }} "></script>
@@ -75,8 +76,8 @@
     <script src="{{ url('js/vendor/bootstrap-datepicker.js') }}"></script>
     <script src="{{ url('js/global.js') }}"></script>
     <script src="{{ asset('js/helpers/ajax_helper.js') }}"></script>
-    <script src="{{ asset('js/helpers/notify.js') }}"></script>
-
+    <script src="{{ asset('js/helpers/notify.js') }}"></script> -->
+    <script src="{{ asset('js/themes/dashboard.js') }}"></script>
     <input type="hidden" name="" id="api_url" value="{{ env('API_URL') }}">
     @yield('js')
     {{-- End Load JS --}}

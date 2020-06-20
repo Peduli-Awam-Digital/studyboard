@@ -23,4 +23,9 @@
         </div>
     </div>
 </div>
+
+@section('js')
+    <script type="text/javascript" src="{{ asset('js/pages/home.js') }}"></script>
+@endsection
+
 @endsection

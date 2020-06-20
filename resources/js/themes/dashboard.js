@@ -1,0 +1,12 @@
+import './../bootstrap';
+import 'bootstrap';
+import 'perfect-scrollbar';
+import 'mousetrap';
+import 'moment';
+import 'sweetalert2';
+import 'select2';
+import 'bootstrap-datepicker';
+import './../vendors/global';
+import './select.from.library';
+import './dore.script';
+import './scripts';
